@@ -21,7 +21,7 @@ That doesn't mean that this class can't be used without JSON. To do this you mus
 
 ## Use
 
-In the main() function you can see a little example of use that write 10 JSON strings and send them to a stream setted in 'firehose.conf':
+In the main() function you can see a little example of use that writes 10 JSON strings and send them to a stream set in 'firehose.conf':
 
 ```python
 fhs = FirehoseSender.from_config('firehose.conf')  # Takes client configuration from file
